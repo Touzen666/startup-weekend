@@ -84,7 +84,17 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script type="text/javascript">
+        $(function() {
+           function reload_handler() {
+               $.get('/v1/script.html', function(data) {
+                    $(".jedzenie").html(data);
+               });
+               setTimeout(reload_handler, 1000);
+           }
+           setTimeout(reload_handler, 1000);
+        });
+    </script>
 
 
 
