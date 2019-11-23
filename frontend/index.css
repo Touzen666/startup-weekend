@@ -152,5 +152,20 @@ td {
   margin-left: 20px;
   background-color: solid #5c7aa3;
 }
-ol {
+h3 {
+  font-size: small;
+  margin-left: 8px;
+}
+h4 {
+  font-size: small;
+  float: left;
+  margin-left: 8px;
+}
+.przejdz {
+  float: left;
+  margin-left: 80px;
+}
+.dodaj {
+  float: left;
+  margin-left: 80px;
 }
