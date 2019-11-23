@@ -1,0 +1,171 @@
+/* body {
+  margin: 0;
+  padding: 0;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: darkgray;
+} */
+/* img {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background-color: darkgray;
+  border-left: 20px solid #5c7aa3;
+  border-right: 20px solid #5c7aa3;
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+/* .left {
+  float: left;
+} */
+.nav {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.nav li {
+  margin: 1px 0;
+  border: 1px solid #999;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 10px;
+  width: 69px;
+}
+.nav li a {
+  display: block;
+  line-height: 3em;
+  text-decoration: none;
+}
+.center {
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+}
+.przepisy {
+  float: left;
+  margin-left: 30px;
+}
+.przepisy > * {
+  margin: 3px;
+  display: inline-block;
+}
+
+.przepisy p {
+  width: 20px;
+  font-size: 10px;
+}
+.user {
+  font-weight: bold;
+}
+
+button {
+  background-color: #717d8e;
+  margin: 3px;
+  float: left;
+  margin-left: 12px;
+  width: 80px;
+}
+.lista {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  border: 2px solid black;
+  width: 266px;
+  background-color: #999;
+}
+.jedzenie {
+  float: left;
+  margin-left: 12px;
+  border: 2px solid black;
+  width: 266px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.wazenie {
+  border: 2px solid black;
+}
+.objekt_listy {
+  float: none !important;
+}
+.tytul_listy {
+  margin-left: 20px;
+  background-color: solid #5c7aa3;
+}
+h3 {
+  font-size: small;
+  margin-left: 8px;
+}
+h4 {
+  font-size: small;
+  float: left;
+  margin-left: 8px;
+}
+.przejdz {
+  float: left;
+  margin-left: 80px;
+}
+.dodaj {
+  float: left;
+  margin-left: 80px;
+}
