@@ -46,7 +46,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  background-color: darkgray;
+  background-color: #6480af;
   border-left: 20px solid #5c7aa3;
   border-right: 20px solid #5c7aa3;
   height: 100vh;
@@ -56,7 +56,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #5c7aa3;
 }
 
 li {
@@ -65,7 +65,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #a4b4d0;
   text-align: center;
   padding: 4px 6px;
   text-decoration: none;
@@ -83,7 +83,7 @@ li a {
 }
 .nav li {
   margin: 1px 0;
-  border: 1px solid #999;
+  border: 1px solid #4b6491;
   margin-left: 2px;
   margin-right: 2px;
   font-size: 10px;
@@ -109,15 +109,19 @@ li a {
 }
 
 .przepisy p {
-  width: 20px;
+  width: 70px;
   font-size: 10px;
+  text-align: center;
+  color: #a4b4d0;
 }
 .user {
   font-weight: bold;
 }
 
 button {
-  background-color: #717d8e;
+  background-color: #5c7aa3;
+  border: solid #49628d;
+  color: #a4b4d0;
   margin: 3px;
   float: left;
   margin-left: 12px;
@@ -127,23 +131,46 @@ button {
   float: left;
   margin-top: 20px;
   margin-left: 30px;
-  border: 2px solid black;
-  width: 266px;
-  background-color: #999;
+  border: 22px solid #49628d;
+  width: 226px;
+  background-color: #516e9e;
+  color: #a4b4d0;
 }
 .jedzenie {
   float: left;
   margin-left: 12px;
-  border: 2px solid black;
-  width: 266px;
+  border: 22px solid #5c7aa3;
+  width: 230px;
+}
+h3 {
+  font-size: small;
+  color: #a4b4d0;
+
+  text-align: center;
+}
+h4 {
+  font-size: small;
+  color: #a4b4d0;
+  float: left;
+
+  text-align: center;
+}
+.przejdz {
+  float: left;
+  margin-left: 76px;
+}
+.dodaj {
+  float: left;
+  margin-left: 76px;
 }
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid #a4b4d0;
 }
 .wazenie {
-  border: 2px solid black;
+  border: 2px solid #a4b4d0;
+  color: #04363e;
 }
 .objekt_listy {
   float: none !important;
@@ -151,21 +178,4 @@ td {
 .tytul_listy {
   margin-left: 20px;
   background-color: solid #5c7aa3;
-}
-h3 {
-  font-size: small;
-  margin-left: 8px;
-}
-h4 {
-  font-size: small;
-  float: left;
-  margin-left: 8px;
-}
-.przejdz {
-  float: left;
-  margin-left: 80px;
-}
-.dodaj {
-  float: left;
-  margin-left: 80px;
 }
