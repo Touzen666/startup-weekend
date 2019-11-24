@@ -141,17 +141,17 @@ button {
   margin-left: 12px;
   border: 22px solid #5c7aa3;
   width: 230px;
-  color: #a4b4d0;
+  color: white;
 }
 h3 {
   font-size: small;
-  color: #a4b4d0;
+  color: white;
 
   text-align: center;
 }
 h4 {
   font-size: small;
-  color: #a4b4d0;
+  color: white;
   float: left;
 
   text-align: center;
@@ -171,7 +171,7 @@ td {
 }
 .wazenie {
   border: 2px solid #a4b4d0;
-  color: #04363e;
+  color: white;
 }
 .objekt_listy {
   float: none !important;
