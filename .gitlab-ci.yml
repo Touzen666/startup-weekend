@@ -1,0 +1,21 @@
+stages:
+  - build
+  - deploy
+
+before_script:
+  - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD zoo.smok.co
+
+build_backend:
+  stage: build
+  script:
+    - DOCKERIT_NO_BRANCH=1 docker-it yourscale zoo.smok.co/henrietta/yourscale-backend . --no-cache
+  artifacts:
+    paths:
+      - "yourscale.digest"
+
+deploy_backend:
+  stage: deploy
+  dependencies:
+    - build_backend
+  script:
+    - docker service update --detach=false --with-registry-auth --image `cat yourscale.digest` yourscale
